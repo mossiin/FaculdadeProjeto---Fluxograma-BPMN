@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="APuVNUE_tPmBOs4FJ1X2-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="APuVNUE_tPmBOs4FJ1X2-51">
+        <mxCell id="APuVNUE_tPmBOs4FJ1X2-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="2" target="APuVNUE_tPmBOs4FJ1X2-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2" value="EMPRESA X" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
@@ -17,7 +17,10 @@
           <mxGeometry x="89.5" y="30" width="620" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5" value="Entregar a documentação da compra dos produtos e das Notas NFE geradas do mesmo" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="130" y="280" width="560" height="54" as="geometry" />
+          <mxGeometry x="123" y="270" width="560" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OXuqK86eGQ-foblXJpSe-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6" target="OXuqK86eGQ-foblXJpSe-48">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6" value="Está faltando algo&#xa;" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="130" y="447" width="130" height="54" as="geometry" />
@@ -25,8 +28,8 @@
         <mxCell id="7" value="Subprocesso 2" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="539" y="551" width="130" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="Subatividade 1" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="250" y="655" width="135" height="54" as="geometry" />
+        <mxCell id="8" value="O pedido é fraudado" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="250" y="540" width="135" height="54" as="geometry" />
         </mxCell>
         <mxCell id="9" value="O pedido é recusado" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="21" y="551" width="135" height="54" as="geometry" />
@@ -37,8 +40,8 @@
         <mxCell id="11" value="Subatividade 4" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="431" y="655" width="135" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="12" value="Subprocesso 3" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="222" y="759" width="130" height="54" as="geometry" />
+        <mxCell id="12" value="é feito um b.o" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="264.5" y="630" width="130" height="54" as="geometry" />
         </mxCell>
         <mxCell id="13" value="é repassado novamente para a administração" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="-50" y="655" width="270" height="54" as="geometry" />
@@ -49,8 +52,18 @@
         <mxCell id="15" value="Subprocesso 6" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="433" y="759" width="130" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="16" value="Fim Subprocesso 3" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="206" y="863" width="162" height="54" as="geometry" />
+        <mxCell id="OXuqK86eGQ-foblXJpSe-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="16" target="OXuqK86eGQ-foblXJpSe-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="314" y="807" />
+              <mxPoint x="271" y="807" />
+              <mxPoint x="271" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="e a policia investiga o caso" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="232.5" y="730" width="162" height="54" as="geometry" />
         </mxCell>
         <mxCell id="17" value="e o processo é refeito" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="8" y="759" width="162" height="54" as="geometry" />
@@ -95,13 +108,6 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="604" y="411" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9;exitY=1;entryX=0.5;entryY=0;" parent="1" source="6" target="8" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="287" y="526" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -166,13 +172,6 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="42" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.16;entryY=0;" parent="1" source="16" target="21" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="287" y="942" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.84;entryY=0;" parent="1" source="19" target="21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -192,47 +191,56 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="APuVNUE_tPmBOs4FJ1X2-47" value="Ele chega ao setor de mercadorias da empresa X" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="APuVNUE_tPmBOs4FJ1X2-47" value="Ele chega ao setor de mercadorias da empresa X" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="319.5" y="130" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="APuVNUE_tPmBOs4FJ1X2-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="APuVNUE_tPmBOs4FJ1X2-48" target="APuVNUE_tPmBOs4FJ1X2-60">
+        <mxCell id="APuVNUE_tPmBOs4FJ1X2-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="APuVNUE_tPmBOs4FJ1X2-48" target="APuVNUE_tPmBOs4FJ1X2-60" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="235" y="-153" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="APuVNUE_tPmBOs4FJ1X2-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="APuVNUE_tPmBOs4FJ1X2-48" target="3">
+        <mxCell id="APuVNUE_tPmBOs4FJ1X2-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="APuVNUE_tPmBOs4FJ1X2-48" target="3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="APuVNUE_tPmBOs4FJ1X2-48" value="Administração" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="APuVNUE_tPmBOs4FJ1X2-48" value="Administração" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="-270" width="109.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="APuVNUE_tPmBOs4FJ1X2-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="APuVNUE_tPmBOs4FJ1X2-51" target="APuVNUE_tPmBOs4FJ1X2-53">
+        <mxCell id="APuVNUE_tPmBOs4FJ1X2-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="APuVNUE_tPmBOs4FJ1X2-51" target="APuVNUE_tPmBOs4FJ1X2-53" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-60" y="-330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="APuVNUE_tPmBOs4FJ1X2-51" value="Diretoria&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="APuVNUE_tPmBOs4FJ1X2-51" value="Diretoria&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="192" y="-430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="APuVNUE_tPmBOs4FJ1X2-53" value="Verificam a negociação dos produtos com a Empresa Y" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="APuVNUE_tPmBOs4FJ1X2-53" value="Verificam a negociação dos produtos com a Empresa Y" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="-390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="APuVNUE_tPmBOs4FJ1X2-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="APuVNUE_tPmBOs4FJ1X2-55" target="APuVNUE_tPmBOs4FJ1X2-48">
+        <mxCell id="APuVNUE_tPmBOs4FJ1X2-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="APuVNUE_tPmBOs4FJ1X2-55" target="APuVNUE_tPmBOs4FJ1X2-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="APuVNUE_tPmBOs4FJ1X2-55" value="Encaminham para a Administração a parte burocratica" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="APuVNUE_tPmBOs4FJ1X2-55" value="Encaminham para a Administração a parte burocratica" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3" y="-290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="APuVNUE_tPmBOs4FJ1X2-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.567;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="APuVNUE_tPmBOs4FJ1X2-53" target="APuVNUE_tPmBOs4FJ1X2-55">
+        <mxCell id="APuVNUE_tPmBOs4FJ1X2-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.567;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="APuVNUE_tPmBOs4FJ1X2-53" target="APuVNUE_tPmBOs4FJ1X2-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="APuVNUE_tPmBOs4FJ1X2-60" value="passa a parte contábil para o setor da contabilidade" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="APuVNUE_tPmBOs4FJ1X2-60" value="passa a parte contábil para o setor da contabilidade" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3" y="-183" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="APuVNUE_tPmBOs4FJ1X2-64" value="encaminha para o setor de logistica" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="APuVNUE_tPmBOs4FJ1X2-64" value="encaminha para o setor de logistica" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="339.5" y="-110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OXuqK86eGQ-foblXJpSe-47" value="a empresa reve os prejuizos com a parte contabil e aciona medidas protetivas" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="119.5" y="848.5" width="140.5" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="OXuqK86eGQ-foblXJpSe-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OXuqK86eGQ-foblXJpSe-48" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OXuqK86eGQ-foblXJpSe-48" value="é ignorado e mesmo assim é inviado" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="313" y="447" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
