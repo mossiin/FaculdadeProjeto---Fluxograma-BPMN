@@ -1,0 +1,6 @@
+Processo de Recebimento de Compras
+
+Toda compra realizada pela empresa XYZ é recebida pelo setor de recebimento de mercadorias.
+O processo inicia quando um funcionário, representando o fornecedor, chega à recepção do setor para realizar a entrega da sua mercadoria.
+Para que o material a ser entregue seja identificado no sistema, o fornecedor deve ter em mãos o pedido de compras autorizado e a nota fiscal do material.
+O funcionário, do setor de recebimento de mercadorias, deverá então validar se os dados da NF estão de acordo com o pedido de compras, realizar a conferência física da mercadoria, que pode ser um ativo ou material de consumo, no que diz respeito a quantidade, marca, peso, embalagem, qualidade e outras especificações técnicas descritas no Pedido de Compras, bem como a validação do local entrega.
